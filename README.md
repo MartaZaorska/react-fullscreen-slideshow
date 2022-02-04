@@ -115,7 +115,7 @@ Script / library for javascript + html (without react): [fullscreen-slideshow](h
 
 ## Demo
 
-Example of use on the website: https://martazaorska.github.io/fullscreen-slideshow/
+Example of use on the website: https://martazaorska.github.io/react-fullscreen-slideshow/
 
 ## Contact
 

@@ -14,7 +14,11 @@ function App() {
   return (
     <>
       <FullscreenSlideshow data={images} isOpen={isOpen} setIsOpen={setIsOpen} activeIndex={activeIndex} setActiveIndex={setActiveIndex} />
-      <button className="btn" onClick={openHandler}>Open Fullscreen Slideshow</button>
+      <header className="header">
+        <h1>Want to create amazing fullscreen slideshow?</h1>
+        <button className="button" onClick={openHandler}>Open Fullscreen Slideshow</button>
+        <a href="https://github.com/MartaZaorska/fullscreen-slideshow" rel="noreferrer" target="_blank">See documentation on Github</a>
+      </header>
     </>
   );
 }

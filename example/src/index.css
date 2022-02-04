@@ -26,12 +26,39 @@ body {
   place-items: center;
 }
 
-.btn {
+.header {
+  max-width: 1200px;
+  width: 100%;
+  margin: 1em auto;
+  padding: 1em;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header h1 {
+  font-size: 2.7em;
+  font-weight: 300;
+}
+
+.header a {
+  width: fit-content;
+  background: linear-gradient(120deg, #95b0ed 0%, #e57073 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+  font-size: 1.1em;
+}
+
+.button {
+  width: fit-content;
   text-align: center;
   padding: 1.2em;
   color: #555;
   box-shadow: 0 0 20px 10px rgba(0,0,0,0.05);
-  margin: 0 30px;
+  margin: 2.2em 1em;
   border-radius: 1.5em;
   font-family: inherit;
   font-size: inherit;
@@ -44,7 +71,7 @@ body {
   transition: all 0.2s;
 }
 
-.btn::before {
+.button::before {
   content: "";
   width: 100%;
   height: 100%;
@@ -56,11 +83,11 @@ body {
   z-index: -1;
 }
 
-.btn:hover::before {
+.button:hover::before {
   top: 0px;
 }
 
-.btn:hover {
+.button:hover {
   color: #fff;
   box-shadow: 0 10px 15px -5px rgba(0,0,0,0.15);
 }
